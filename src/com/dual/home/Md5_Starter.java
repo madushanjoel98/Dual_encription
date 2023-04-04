@@ -7,8 +7,8 @@ import java.security.NoSuchAlgorithmException;
 public class Md5_Starter {
 	
 	//MD5 genarater
-	public static String mD5(String pass) throws NoSuchAlgorithmException {
-		MessageDigest m=MessageDigest.getInstance("MD5");
+	public static String SHA_256(String pass) throws NoSuchAlgorithmException {
+		MessageDigest m=MessageDigest.getInstance("SHA-256");
 		m.reset();
 		m.update(pass.getBytes());
 		byte[]digest=m.digest();
