@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class Md5_Starter {
 	
-	//MD5 genarater
+	//SHA-256 genarater
 	public static String SHA_256(String pass) throws NoSuchAlgorithmException {
 		MessageDigest m=MessageDigest.getInstance("SHA-256");
 		m.reset();
